@@ -79,14 +79,33 @@ pip install -r requirements.txt
 
 Dataset Preparation
 
-Place the following files inside the dataset folder:
+## Dataset Preparation
 
-jigsaw_cleaned.csv
-hate_cleaned.csv
-civil_cleaned.csv
-final_combined_dataset.csv
+The datasets used in this project are hosted on Google Drive due to GitHub storage limitations.
 
-Due to GitHub size limitations, datasets are not included in this repository.
+### Download Datasets
+
+Google Drive Link:
+
+https://drive.google.com/drive/folders/1D-NcHBWJu1T92Ik1bluHUmbxkXr1Z5JZ?usp=drive_link
+
+After downloading, place the files inside the `dataset/` folder:
+
+dataset/
+├── jigsaw_cleaned.csv
+├── hate_cleaned.csv
+├── civil_cleaned.csv
+└── final_combined_dataset.csv
+
+### Datasets Used
+
+1. Jigsaw Toxic Comment Dataset
+2. Hate Speech and Offensive Language Dataset
+3. Civil Comments Dataset
+
+## Note
+
+Due to GitHub file size limitations, datasets, trained models, and checkpoints are not stored in this repository. They can be downloaded from the Google Drive link provided above.
 
 ---
 
